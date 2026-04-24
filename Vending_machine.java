@@ -106,6 +106,7 @@ public class Vending_machine{
         } 
         } while(trayNo !=0);
         System.out.println("Your total bill is: "+ total);
+        sc.close();
 
     }
 
